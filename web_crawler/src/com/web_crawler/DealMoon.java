@@ -18,6 +18,7 @@ public class DealMoon {
 	public static void main(String[] args) throws IOException {
 		/*String html1 = "<html><head><title>First parse</title></head>"
 				  + "<body><p>Parsed HTML into a doc.</p></body></html>";*/
+		System.out.println("helloworld");
 		List<Item> itemList = new ArrayList<Item>();
 		Document DealMoonDoc = Jsoup.connect("http://www.dealmoon.com").get();
 		Element tagDivCon_Lecon = DealMoonDoc.select("div.con_lecon").first();
