@@ -1,4 +1,4 @@
-package com.web_crawler;
+package web_crawler;
 
 public class Item {
 	public String keyword;
